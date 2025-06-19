@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kyle Ange Aymeric Konan - Resume</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <h1 class="logo">Kyle Konan</h1>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Kyle Ange Aymeric Konan</h2>
+            <p>Web Developer & Digital Designer</p>
+            <button id="contact-btn" class="cta-btn">Get In Touch</button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I'm a passionate web developer and digital designer with experience in creating modern, 
+            responsive websites and digital graphics. I enjoy working with both code and creative tools 
+            to bring ideas to life.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <h3>Web Development</h3>
+                    <div class="skill-bar">
+                        <div class="skill-level" data-level="85"></div>
+                    </div>
+                    <p>HTML, CSS, JavaScript</p>
+                </div>
+                <div class="skill-item">
+                    <h3>Adobe Photoshop</h3>
+                    <div class="skill-bar">
+                        <div class="skill-level" data-level="80"></div>
+                    </div>
+                    <p>Photo editing & manipulation</p>
+                </div>
+                <div class="skill-item">
+                    <h3>Adobe Illustrator</h3>
+                    <div class="skill-bar">
+                        <div class="skill-level" data-level="75"></div>
+                    </div>
+                    <p>Vector graphics & logos</p>
+                </div>
+                <div class="skill-item">
+                    <h3>Video Editing</h3>
+                    <div class="skill-bar">
+                        <div class="skill-level" data-level="70"></div>
+                    </div>
+                    <p>Basic video editing skills</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Personal Website</h3>
+                    <p>A responsive portfolio website built with HTML, CSS, and JavaScript</p>
+                </div>
+                <div class="project-card">
+                    <h3>Logo Design</h3>
+                    <p>Custom logo designs created using Adobe Illustrator</p>
+                </div>
+                <div class="project-card">
+                    <h3>Photo Gallery</h3>
+                    <p>Interactive photo gallery with image editing showcase</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form id="contact-form" class="contact-form">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+            <div class="contact-info">
+                <p>Email: kyle.konan@gmail.com</p>
+                <p>Phone: 0795200705</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Success Modal -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3>Message Sent!</h3>
+            <p>Thanks for reaching out. I'll get back to you soon!</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
