@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kyle Ange Aymeric Konan - Resume</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- Navigation -->
@@ -12,11 +13,11 @@
         <div class="nav-container">
             <h1 class="logo">Kyle Konan</h1>
             <ul class="nav-menu">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+                <li><a href="#skills"><i class="fas fa-cogs"></i> Skills</a></li>
+                <li><a href="#projects"><i class="fas fa-briefcase"></i> Projects</a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
             </ul>
             <div class="hamburger">
                 <span></span>
@@ -30,8 +31,8 @@
     <section id="home" class="hero">
         <div class="hero-content">
             <h2>Kyle Ange Aymeric Konan</h2>
-            <p>Web Developer & Digital Designer</p>
-            <button id="contact-btn" class="cta-btn">Get In Touch</button>
+            <p><i class="fas fa-code"></i> Web Developer & Digital Designer</p>
+            <button id="contact-btn" class="cta-btn"><i class="fas fa-paper-plane"></i> Get In Touch</button>
         </div>
     </section>
 
@@ -39,9 +40,16 @@
     <section id="about" class="section">
         <div class="container">
             <h2>About Me</h2>
-            <p>I'm a passionate web developer and digital designer with experience in creating modern, 
-            responsive websites and digital graphics. I enjoy working with both code and creative tools 
-            to bring ideas to life.</p>
+            <p>I am a motivated and tech-savvy university student with a strong passion for technology and continuous learning. 
+            I am proficient in Microsoft Office (Word, Excel, PowerPoint), Adobe Photoshop and Illustrator for digital design, 
+            Adobe Premiere Pro for video editing, and have hands-on experience in 3D concept design using Blender and AutoCAD.</p>
+            
+            <p>Fluent in both French (native) and English, I possess excellent communication and interpersonal skills. 
+            During my internship at Mutuelle Générale, I gained valuable experience as a functional agent supporting IT infrastructure, 
+            and completed a two-week immersion program focused on entrepreneurship.</p>
+            
+            <p>Curious, dynamic, and rigorous, I enjoy taking initiative and contributing to innovative projects. 
+            Outside of academics, I'm passionate about basketball and music, which reflect my creativity and balanced lifestyle.</p>
         </div>
     </section>
 
@@ -51,32 +59,52 @@
             <h2>Skills</h2>
             <div class="skills-grid">
                 <div class="skill-item">
-                    <h3>Web Development</h3>
+                    <i class="fas fa-file-word"></i>
+                    <h3>Microsoft Office</h3>
+                    <div class="skill-bar">
+                        <div class="skill-level" data-level="90"></div>
+                    </div>
+                    <p>Word, Excel, PowerPoint</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-adobe"></i>
+                    <h3>Adobe Creative Suite</h3>
                     <div class="skill-bar">
                         <div class="skill-level" data-level="85"></div>
+                    </div>
+                    <p>Photoshop, Illustrator, Premiere Pro</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-cube"></i>
+                    <h3>3D Design</h3>
+                    <div class="skill-bar">
+                        <div class="skill-level" data-level="75"></div>
+                    </div>
+                    <p>Blender, AutoCAD</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-globe"></i>
+                    <h3>Languages</h3>
+                    <div class="skill-bar">
+                        <div class="skill-level" data-level="95"></div>
+                    </div>
+                    <p>French (native), English (fluent)</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-code"></i>
+                    <h3>Web Development</h3>
+                    <div class="skill-bar">
+                        <div class="skill-level" data-level="80"></div>
                     </div>
                     <p>HTML, CSS, JavaScript</p>
                 </div>
                 <div class="skill-item">
-                    <h3>Adobe Photoshop</h3>
+                    <i class="fas fa-users"></i>
+                    <h3>Collaboration Tools</h3>
                     <div class="skill-bar">
-                        <div class="skill-level" data-level="80"></div>
+                        <div class="skill-level" data-level="85"></div>
                     </div>
-                    <p>Photo editing & manipulation</p>
-                </div>
-                <div class="skill-item">
-                    <h3>Adobe Illustrator</h3>
-                    <div class="skill-bar">
-                        <div class="skill-level" data-level="75"></div>
-                    </div>
-                    <p>Vector graphics & logos</p>
-                </div>
-                <div class="skill-item">
-                    <h3>Video Editing</h3>
-                    <div class="skill-bar">
-                        <div class="skill-level" data-level="70"></div>
-                    </div>
-                    <p>Basic video editing skills</p>
+                    <p>Microsoft Teams, Slack</p>
                 </div>
             </div>
         </div>
@@ -88,16 +116,24 @@
             <h2>Projects</h2>
             <div class="projects-grid">
                 <div class="project-card">
-                    <h3>Personal Website</h3>
-                    <p>A responsive portfolio website built with HTML, CSS, and JavaScript</p>
+                    <i class="fas fa-server"></i>
+                    <h3>IT Infrastructure Support</h3>
+                    <p>Internship at Mutuelle Générale as functional agent supporting IT infrastructure</p>
                 </div>
                 <div class="project-card">
-                    <h3>Logo Design</h3>
-                    <p>Custom logo designs created using Adobe Illustrator</p>
+                    <i class="fas fa-cube"></i>
+                    <h3>3D Design Projects</h3>
+                    <p>Concept designs and modeling using Blender and AutoCAD for various applications</p>
                 </div>
                 <div class="project-card">
-                    <h3>Photo Gallery</h3>
-                    <p>Interactive photo gallery with image editing showcase</p>
+                    <i class="fas fa-video"></i>
+                    <h3>Digital Media Content</h3>
+                    <p>Video editing and graphic design projects using Adobe Creative Suite</p>
+                </div>
+                <div class="project-card">
+                    <i class="fas fa-lightbulb"></i>
+                    <h3>Entrepreneurship Program</h3>
+                    <p>Two-week immersion program focused on entrepreneurship and business development</p>
                 </div>
             </div>
         </div>
@@ -114,8 +150,8 @@
                 <button type="submit">Send Message</button>
             </form>
             <div class="contact-info">
-                <p>Email: kyle.konan@gmail.com</p>
-                <p>Phone: 0795200705</p>
+                <p><i class="fas fa-envelope"></i> Email: kyle.konan@email.com</p>
+                <p><i class="fas fa-phone"></i> Phone: 0795200705</p>
             </div>
         </div>
     </section>
